@@ -1,0 +1,19 @@
+{
+  "asset_filename": "WhistleMamba-CSR01-joint-base-e12.safetensors",
+  "canonical_state_dict_sha256": "c08762340840e7eaaddc7ea5a3a45693e823916748f4b7bc68e10b5c8b228cc5",
+  "checkpoint_sha256": "0b3d3b12216dc56935b83d999533df043b850c8f620c08290b692f035458a2e0",
+  "config_sha256": "79bb0399c9aa003bb83bb043c4a6efd0aed2f8adf4d5efffe07f411d5b8e4bae",
+  "default_tracker": "learned",
+  "distribution_status": "local_only",
+  "download_url": null,
+  "feature_signature": "fc80644f5721184373e3",
+  "model_id": "WhistleMamba-Track-CSR01-s17-joint-BASE-e12-v2",
+  "normalization_artifact_sha256": "9932ebc9f2b9589d9be5e1fdf0253c887478bb8c0b99be71e5ba03452acf62a8",
+  "normalization_identity_sha256": "2302c0d6c866ebc046c8ee8d8149d007a8910369f509542510eed4a26bae998d",
+  "overall_epoch": 12,
+  "presence_gating": false,
+  "raw_epoch": 11,
+  "source_checkpoint_sha256": "dfb6e95b48de56212c277c107c54bccb399e56de0df78b584f858311a3e3ac25",
+  "source_config_sha256": "3b172d871085e5b01cc62411bcb77b6b50a02c4bed3d63c15e380e87723cae3f",
+  "state_key": "model"
+}

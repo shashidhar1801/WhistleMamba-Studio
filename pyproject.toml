@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=77","wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "whistlemamba-studio"
+version = "0.2.0b2"
+description = "Local whistle-contour detection and interactive review in a browser or desktop editor"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = "Apache-2.0"
+license-files = ["LICENSE","NOTICE","THIRD_PARTY_NOTICES.md"]
+dependencies = ["numpy","scipy","soundfile","PyYAML","matplotlib","torch==2.9.1","safetensors","einops","mamba-ssm==2.3.2.post1","causal-conv1d==1.6.2.post1"]
+[project.optional-dependencies]
+studio = ["PySide6==6.11.1","pyqtgraph==0.14.0"]
+[project.scripts]
+whistlemamba = "whistlemamba.cli:main"
+whistlemamba-studio = "whistlemamba_studio.application:main"
+whistlemamba-studio-web = "whistlemamba_studio.web:main"
+[tool.setuptools.packages.find]
+where = ["app"]
+include = ["whistlemamba", "whistlemamba.*", "whistlemamba_studio", "whistlemamba_studio.*"]
+[tool.setuptools.package-data]
+whistlemamba = ["resources/*.json"]
+whistlemamba_studio = ["web_assets/*.html","web_assets/*.js","web_assets/*.css"]

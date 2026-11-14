@@ -1,0 +1,6 @@
+WhistleMamba Studio example recordings
+
+Permission is granted to download For_mamba_1.wav, For_mamba_2.wav,
+For_mamba_3.wav and For_mamba_4.wav and use them in WhistleMamba Studio.
+The Apache software license and the Creative Commons model-weights
+license do not apply to these recordings.

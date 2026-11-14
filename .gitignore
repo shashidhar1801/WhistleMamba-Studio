@@ -1,0 +1,27 @@
+# Local environments, builds and machine-specific configuration
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+build/
+dist/
+LocalRuntime.json
+*.log
+.env
+.env.*
+Thumbs.db
+.DS_Store
+
+# Executables, model weights, user recordings and session exports do not belong in Git.
+*.exe
+*.zip
+*.pt
+*.pth
+*.safetensors
+*.[Ww][Aa][Vv]
+!/examples/For_mamba_1.wav
+!/examples/For_mamba_2.wav
+!/examples/For_mamba_3.wav
+!/examples/For_mamba_4.wav
+*.wmproject.json

@@ -1,0 +1,12 @@
+{
+  "model_id": "WhistleMamba-Track-CSR01-s17-joint-BASE-e12-v2",
+  "asset": "WhistleMamba-CSR01-joint-base-e12.safetensors",
+  "bytes": 79801968,
+  "sha256": "0b3d3b12216dc56935b83d999533df043b850c8f620c08290b692f035458a2e0",
+  "creator": "Shashidhar Siddagangaiah",
+  "license_spdx": "CC-BY-ND-4.0",
+  "license_uri": "https://creativecommons.org/licenses/by-nd/4.0/",
+  "license_file": "MODEL_WEIGHTS_LICENSE.txt",
+  "public_redistribution": "permitted under the specified license",
+  "public_download_url": null
+}

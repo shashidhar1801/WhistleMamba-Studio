@@ -1,0 +1,431 @@
+[
+  {
+    "name": "annotated-doc",
+    "version": "0.0.5",
+    "sha256": "117bac03a25ede5df5440e855b32d556049ca169ead221505badf432fed4b101"
+  },
+  {
+    "name": "anyio",
+    "version": "4.14.2",
+    "sha256": "9f505dda5ac9f0c8309b5e8bd445a8c2bf7246f3ce950121e45ea15bc41d1494"
+  },
+  {
+    "name": "apache-tvm-ffi",
+    "version": "0.1.9",
+    "sha256": "f45eb43499acac45ff6c93564f0ff2d3ca27b69656d540fd56ce59d51c0b4c65"
+  },
+  {
+    "name": "causal-conv1d",
+    "version": "1.6.2.post1",
+    "sha256": "3d09789a5df2760a59c2064c4570a4ccd30315943581e9553eb1f412cd9e25a6",
+    "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.9cxx11abiTRUE-cp312-cp312-linux_x86_64.whl"
+  },
+  {
+    "name": "certifi",
+    "version": "2026.7.22",
+    "sha256": "62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775"
+  },
+  {
+    "name": "cffi",
+    "version": "2.1.0",
+    "sha256": "1e9f50d192a3e525b15a75ab5114e442d83d657b7ec29182a991bc9a88fd3a66"
+  },
+  {
+    "name": "click",
+    "version": "8.4.2",
+    "sha256": "e6f9f66136c816745b9d65817da91d61d957fb16e02e4dcd0552553c5a197b76"
+  },
+  {
+    "name": "cloudpickle",
+    "version": "3.1.2",
+    "sha256": "9acb47f6afd73f60dc1df93bb801b472f05ff42fa6c84167d25cb206be1fbf4a"
+  },
+  {
+    "name": "contourpy",
+    "version": "1.3.3",
+    "sha256": "4d00e655fcef08aba35ec9610536bfe90267d7ab5ba944f7032549c55a146da1"
+  },
+  {
+    "name": "cuda-bindings",
+    "version": "13.3.1",
+    "sha256": "e32d08f71ebcdf00f0f41eab2eb37e8da94c8ed411cc9f7f7a019ce6b34abe3a"
+  },
+  {
+    "name": "cuda-core",
+    "version": "1.0.1",
+    "sha256": "be7b65311bf78964b7905adbf3c0f8f717d432f2854dc45169277729bf60f1e2"
+  },
+  {
+    "name": "cuda-pathfinder",
+    "version": "1.6.0",
+    "sha256": "1503af579d8379c24bdd65528379bc57039b0455be9f5f9686cf8e473a1fce51"
+  },
+  {
+    "name": "cuda-python",
+    "version": "13.3.1",
+    "sha256": "280b014139ab447b6dd70a377db1596f310d6e887d9d342e6651b919ec145fb3"
+  },
+  {
+    "name": "cycler",
+    "version": "0.12.1",
+    "sha256": "85cef7cff222d8644161529808465972e51340599459b8ac3ccbac5a854e0d30"
+  },
+  {
+    "name": "einops",
+    "version": "0.8.2",
+    "sha256": "54058201ac7087911181bfec4af6091bb59380360f069276601256a76af08193"
+  },
+  {
+    "name": "filelock",
+    "version": "3.29.0",
+    "sha256": "96f5f6344709aa1572bbf631c640e4ebeeb519e08da902c39a001882f30ac258"
+  },
+  {
+    "name": "fonttools",
+    "version": "4.63.0",
+    "sha256": "58dc6bb86a78d782f00f9190ca02c119cf5bbe2807536e361e18d42019f877d8"
+  },
+  {
+    "name": "fsspec",
+    "version": "2026.4.0",
+    "sha256": "11ef7bb35dab8a394fde6e608221d5cf3e8499401c249bebaeaad760a1a8dec2"
+  },
+  {
+    "name": "h11",
+    "version": "0.16.0",
+    "sha256": "63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86"
+  },
+  {
+    "name": "hf-xet",
+    "version": "1.5.2",
+    "sha256": "db78c39c83d6279daddc98e2238f373ab8980685556d42472b4ec51abcf03e8c"
+  },
+  {
+    "name": "httpcore",
+    "version": "1.0.9",
+    "sha256": "2d400746a40668fc9dec9810239072b40b4484b640a8c38fd654a024c7a1bf55"
+  },
+  {
+    "name": "httpx",
+    "version": "0.28.1",
+    "sha256": "d909fcccc110f8c7faf814ca82a9a4d816bc5a6dbfea25d6591d6985b8ba59ad"
+  },
+  {
+    "name": "huggingface-hub",
+    "version": "1.26.0",
+    "sha256": "e8cca670caa5d8dfa7e45bf45e86b466698198cd8150c021bcdb4a86b9252364"
+  },
+  {
+    "name": "idna",
+    "version": "3.18",
+    "sha256": "7f952cbe720b688055e3f87de14f5c3e5fdaa8bc3928985c4077ca689de849a2"
+  },
+  {
+    "name": "jinja2",
+    "version": "3.1.6",
+    "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67"
+  },
+  {
+    "name": "kiwisolver",
+    "version": "1.5.0",
+    "sha256": "bb5136fb5352d3f422df33f0c879a1b0c204004324150cc3b5e3c4f310c9049f"
+  },
+  {
+    "name": "mamba-ssm",
+    "version": "2.3.2.post1",
+    "sha256": "8fd21085d668a3bdbb1f7903c81f64434d7ed2c763240f8328a465a42370a7b6",
+    "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.9cxx11abiTRUE-cp312-cp312-linux_x86_64.whl"
+  },
+  {
+    "name": "markdown-it-py",
+    "version": "4.2.0",
+    "sha256": "9f7ebbcd14fe59494226453aed97c1070d83f8d24b6fc3a3bcf9a38092641c4a"
+  },
+  {
+    "name": "markupsafe",
+    "version": "3.0.3",
+    "sha256": "d6dd0be5b5b189d31db7cda48b91d7e0a9795f31430b7f271219ab30f1d3ac9d"
+  },
+  {
+    "name": "matplotlib",
+    "version": "3.11.1",
+    "sha256": "ba8f811b8ddfac493734d6af0b2dff96919d0c28ca0d641858dab4262777c6ea"
+  },
+  {
+    "name": "mdurl",
+    "version": "0.1.2",
+    "sha256": "84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8"
+  },
+  {
+    "name": "ml-dtypes",
+    "version": "0.5.4",
+    "sha256": "9ad459e99793fa6e13bd5b7e6792c8f9190b4e5a1b45c63aba14a4d0a7f1d5ff"
+  },
+  {
+    "name": "mpmath",
+    "version": "1.3.0",
+    "sha256": "a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c"
+  },
+  {
+    "name": "networkx",
+    "version": "3.6.1",
+    "sha256": "d47fbf302e7d9cbbb9e2555a0d267983d2aa476bac30e90dfbe5669bd57f3762"
+  },
+  {
+    "name": "ninja",
+    "version": "1.13.0",
+    "sha256": "fb46acf6b93b8dd0322adc3a4945452a4e774b75b91293bafcc7b7f8e6517dfa"
+  },
+  {
+    "name": "numpy",
+    "version": "2.4.4",
+    "sha256": "81f4a14bee47aec54f883e0cad2d73986640c1590eb9bfaaba7ad17394481e6e"
+  },
+  {
+    "name": "nvidia-cublas-cu12",
+    "version": "12.8.4.1",
+    "sha256": "8ac4e771d5a348c551b2a426eda6193c19aa630236b418086020df5ba9667142"
+  },
+  {
+    "name": "nvidia-cuda-cupti-cu12",
+    "version": "12.8.90",
+    "sha256": "ea0cb07ebda26bb9b29ba82cda34849e73c166c18162d3913575b0c9db9a6182"
+  },
+  {
+    "name": "nvidia-cuda-nvdisasm",
+    "version": "13.3.73",
+    "sha256": "fa17084b07c0dca68a42892f771b4b1b40fbe9b91660209623e61cea611cae8c"
+  },
+  {
+    "name": "nvidia-cuda-nvrtc-cu12",
+    "version": "12.8.93",
+    "sha256": "a7756528852ef889772a84c6cd89d41dfa74667e24cca16bb31f8f061e3e9994"
+  },
+  {
+    "name": "nvidia-cuda-runtime-cu12",
+    "version": "12.8.90",
+    "sha256": "adade8dcbd0edf427b7204d480d6066d33902cab2a4707dcfc48a2d0fd44ab90"
+  },
+  {
+    "name": "nvidia-cudnn-cu12",
+    "version": "9.10.2.21",
+    "sha256": "949452be657fa16687d0930933f032835951ef0892b37d2d53824d1a84dc97a8"
+  },
+  {
+    "name": "nvidia-cufft-cu12",
+    "version": "11.3.3.83",
+    "sha256": "4d2dd21ec0b88cf61b62e6b43564355e5222e4a3fb394cac0db101f2dd0d4f74"
+  },
+  {
+    "name": "nvidia-cufile-cu12",
+    "version": "1.13.1.3",
+    "sha256": "1d069003be650e131b21c932ec3d8969c1715379251f8d23a1860554b1cb24fc"
+  },
+  {
+    "name": "nvidia-curand-cu12",
+    "version": "10.3.9.90",
+    "sha256": "b32331d4f4df5d6eefa0554c565b626c7216f87a06a4f56fab27c3b68a830ec9"
+  },
+  {
+    "name": "nvidia-cusolver-cu12",
+    "version": "11.7.3.90",
+    "sha256": "4376c11ad263152bd50ea295c05370360776f8c3427b30991df774f9fb26c450"
+  },
+  {
+    "name": "nvidia-cusparse-cu12",
+    "version": "12.5.8.93",
+    "sha256": "1ec05d76bbbd8b61b06a80e1eaf8cf4959c3d4ce8e711b65ebd0443bb0ebb13b"
+  },
+  {
+    "name": "nvidia-cusparselt-cu12",
+    "version": "0.7.1",
+    "sha256": "f1bb701d6b930d5a7cea44c19ceb973311500847f81b634d802b7b539dc55623"
+  },
+  {
+    "name": "nvidia-cutlass-dsl",
+    "version": "4.6.0",
+    "sha256": "e3e0e4d8df20d82c8401fa013f4d82021f41daa5fca3d24b55d4a677f2308ca8"
+  },
+  {
+    "name": "nvidia-cutlass-dsl-libs-base",
+    "version": "4.6.0",
+    "sha256": "e41cd5db4de4b535c30ae9ca4412b957800a62560019ae91fa51cf3ea89bf254"
+  },
+  {
+    "name": "nvidia-cutlass-dsl-libs-core",
+    "version": "4.6.0",
+    "sha256": "f9ea6d313a03cb11fa177da32e8747ad0cac51358850810f36aa6c4736192c27"
+  },
+  {
+    "name": "nvidia-cutlass-dsl-libs-cu12",
+    "version": "4.6.0",
+    "sha256": "abc341ff0fce40ed0bdadf160f6afac07fb9d01768d4daebd1628c330b3e4210"
+  },
+  {
+    "name": "nvidia-nccl-cu12",
+    "version": "2.27.5",
+    "sha256": "ad730cf15cb5d25fe849c6e6ca9eb5b76db16a80f13f425ac68d8e2e55624457"
+  },
+  {
+    "name": "nvidia-nvjitlink-cu12",
+    "version": "12.8.93",
+    "sha256": "81ff63371a7ebd6e6451970684f916be2eab07321b73c9d244dc2b4da7f73b88"
+  },
+  {
+    "name": "nvidia-nvshmem-cu12",
+    "version": "3.3.20",
+    "sha256": "d00f26d3f9b2e3c3065be895e3059d6479ea5c638a3f38c9fec49b1b9dd7c1e5"
+  },
+  {
+    "name": "nvidia-nvtx-cu12",
+    "version": "12.8.90",
+    "sha256": "5b17e2001cc0d751a5bc2c6ec6d26ad95913324a4adb86788c944f8ce9ba441f"
+  },
+  {
+    "name": "packaging",
+    "version": "26.2",
+    "sha256": "5fc45236b9446107ff2415ce77c807cee2862cb6fac22b8a73826d0693b0980e"
+  },
+  {
+    "name": "pillow",
+    "version": "11.3.0",
+    "sha256": "676b2815362456b5b3216b4fd5bd89d362100dc6f4945154ff172e206a22c024"
+  },
+  {
+    "name": "protobuf",
+    "version": "6.33.6",
+    "sha256": "e9db7e292e0ab79dd108d7f1a94fe31601ce1ee3f7b79e0692043423020b0593"
+  },
+  {
+    "name": "psutil",
+    "version": "7.2.2",
+    "sha256": "076a2d2f923fd4821644f5ba89f059523da90dc9014e85f8e45a5774ca5bc6f9"
+  },
+  {
+    "name": "pycparser",
+    "version": "3.0",
+    "sha256": "b727414169a36b7d524c1c3e31839a521725078d7b2ff038656844266160a992"
+  },
+  {
+    "name": "pygments",
+    "version": "2.20.0",
+    "sha256": "81a9e26dd42fd28a23a2d169d86d7ac03b46e2f8b59ed4698fb4785f946d0176"
+  },
+  {
+    "name": "pyparsing",
+    "version": "3.3.2",
+    "sha256": "850ba148bd908d7e2411587e247a1e4f0327839c40e2e5e6d05a007ecc69911d"
+  },
+  {
+    "name": "python-dateutil",
+    "version": "2.9.0.post0",
+    "sha256": "a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427"
+  },
+  {
+    "name": "pyyaml",
+    "version": "6.0.3",
+    "sha256": "ba1cc08a7ccde2d2ec775841541641e4548226580ab850948cbfda66a1befcdc"
+  },
+  {
+    "name": "quack-kernels",
+    "version": "0.6.1",
+    "sha256": "266705ea82117e9b1c8a9e44d68a458519f2498d966c0efffd6812120c3995ad"
+  },
+  {
+    "name": "regex",
+    "version": "2026.7.19",
+    "sha256": "9dce8ec9695f531a1b8a6f314fd4b393adcccf2ea861db480cdf97a301d01a68"
+  },
+  {
+    "name": "rich",
+    "version": "15.0.0",
+    "sha256": "33bd4ef74232fb73fe9279a257718407f169c09b78a87ad3d296f548e27de0bb"
+  },
+  {
+    "name": "safetensors",
+    "version": "0.8.0",
+    "sha256": "fd6f3f93c9a0a7cc2788ee63fb763353d4bd2e89b0751bc78fcf7dda00bea774"
+  },
+  {
+    "name": "scipy",
+    "version": "1.18.0",
+    "sha256": "1f55797419e16e7f30cf88ffb3113ce0467f00cfe3f70d5c281730b21769bfc2"
+  },
+  {
+    "name": "setuptools",
+    "version": "78.1.0",
+    "sha256": "3e386e96793c8702ae83d17b853fb93d3e09ef82ec62722e61da5cd22376dcd8"
+  },
+  {
+    "name": "shellingham",
+    "version": "1.5.4",
+    "sha256": "7ecfff8f2fd72616f7481040475a65b2bf8af90a56c89140852d1120324e8686"
+  },
+  {
+    "name": "six",
+    "version": "1.17.0",
+    "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274"
+  },
+  {
+    "name": "soundfile",
+    "version": "0.14.0",
+    "sha256": "1e38bac1853412871318e82a1ba69a8be677619b56025bbfcccdb41b6cafe82d"
+  },
+  {
+    "name": "sympy",
+    "version": "1.14.0",
+    "sha256": "e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5"
+  },
+  {
+    "name": "tilelang",
+    "version": "0.1.8",
+    "sha256": "5a4018e581f55c852d98a42d3b4acf2dbcfb8b7d8b9156ba7c6b0ab61600a10c"
+  },
+  {
+    "name": "tokenizers",
+    "version": "0.22.2",
+    "sha256": "369cc9fc8cc10cb24143873a0d95438bb8ee257bb80c71989e3ee290e8d72c67"
+  },
+  {
+    "name": "torch",
+    "version": "2.9.1+cu128",
+    "sha256": "7cb4018f4ce68b61fd3ef87dc1c4ca520731c7b5b200e360ad47b612d7844063",
+    "url": "https://download-r2.pytorch.org/whl/cu128/torch-2.9.1%2Bcu128-cp312-cp312-manylinux_2_28_x86_64.whl"
+  },
+  {
+    "name": "torch-c-dlpack-ext",
+    "version": "0.1.5",
+    "sha256": "e6f9da4bb9af70e27facc777458be62e10dbbbddda7672d16138db0553c5a524"
+  },
+  {
+    "name": "tqdm",
+    "version": "4.70.0",
+    "sha256": "7f585706bfddbdebf89daac705b2dfcc16890130727d3197ca62c732b4310953"
+  },
+  {
+    "name": "transformers",
+    "version": "5.14.1",
+    "sha256": "9db974c4079ede2d1a3ea7ca5a240df33f2cc26fc2b36ba64c5f2a4f43b6e725"
+  },
+  {
+    "name": "triton",
+    "version": "3.5.1",
+    "sha256": "8ce9bcedbd12b393d1309fb899e06818624c7e7765c5231ea5749850015c74d8",
+    "url": "https://download-r2.pytorch.org/whl/triton-3.5.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+  },
+  {
+    "name": "typer",
+    "version": "0.27.0",
+    "sha256": "6f4b27631e47f077871b7dc30e933ec0131c1390fbe0e387ea5574b5bac9ccf1"
+  },
+  {
+    "name": "typing-extensions",
+    "version": "4.15.0",
+    "sha256": "f0fa19c6845758ab08074a0cfa8b7aecb71c999ca73d62883bc25cc018c4e548"
+  },
+  {
+    "name": "z3-solver",
+    "version": "4.15.4.0",
+    "sha256": "7e103a6f203f505b8b8b8e5c931cc407c95b61556512d4921c1ddc0b3f41b08e"
+  }
+]

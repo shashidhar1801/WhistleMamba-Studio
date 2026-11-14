@@ -1,0 +1,7 @@
+WhistleMamba
+Copyright 2026 WhistleMamba contributors
+
+This product includes software developed by the WhistleMamba contributors.
+Third-party components and their licenses are listed in THIRD_PARTY_NOTICES.md.
+The Apache-2.0 code license does not cover dataset audio or model weights.
+For the included inference weights, see model/MODEL_WEIGHTS_LICENSE.txt (CC BY-ND 4.0).

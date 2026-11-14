@@ -1,0 +1,109 @@
+{
+  "features": {
+    "channel_means": [
+      -26.711266437490323,
+      -23.45007717478199,
+      -0.023727558189812568
+    ],
+    "channel_stds": [
+      13.351291781666392,
+      13.419603548942414,
+      0.9859532600474459
+    ],
+    "f_max_hz": 96000.0,
+    "f_min_hz": 4000.0,
+    "frequency_resolution_hz": 125.0,
+    "hop_length": 384,
+    "n_fft_long": 4096,
+    "n_fft_short": 2048,
+    "normalization": "global_zscore",
+    "sample_rate": 192000,
+    "win_length_long": 3072,
+    "win_length_short": 1536,
+    "window_seconds": 4.0
+  },
+  "heuristic_tracker": {
+    "detection_cost_weight": 0.25,
+    "edge_threshold": 0.5,
+    "endpoint_stop_threshold": 0.65,
+    "frequency_nms_bins": 3,
+    "max_frequency_jump_bins": 24,
+    "max_gap_frames": 8,
+    "max_nodes_per_frame": 24,
+    "min_duration_frames": 50,
+    "node_threshold": 0.375,
+    "start_threshold": 0.45,
+    "unmatched_cost": 6.0
+  },
+  "model": {
+    "attention_heads": 8,
+    "attention_stages": [
+      3
+    ],
+    "attention_window": [
+      8,
+      16
+    ],
+    "axis_chunk_size": 32,
+    "backend": "mamba2",
+    "channels": [
+      48,
+      96,
+      192,
+      320
+    ],
+    "checkpoint_blocks": true,
+    "checkpoint_decoder": true,
+    "checkpoint_directional_branches": true,
+    "checkpoint_heads": true,
+    "d_conv": 4,
+    "d_state": [
+      32,
+      32,
+      64,
+      64
+    ],
+    "decoder_channels": 32,
+    "depths": [
+      1,
+      2,
+      4,
+      2
+    ],
+    "detail_channels": 16,
+    "directional_fusion": "sequential",
+    "drop_path_rate": 0.1,
+    "embedding_dim": 8,
+    "expand": 2,
+    "headdim": 32,
+    "in_channels": 3,
+    "use_frequency_scan_from_stage": 1,
+    "use_local_attention": true,
+    "variant_name": "WhistleMamba-Track-v1"
+  },
+  "reporting_thresholds": {
+    "centerline_threshold": 0.25,
+    "endpoint_reporting_threshold": 0.45,
+    "junction_reporting_threshold": 0.7
+  },
+  "stitching": {
+    "max_frequency_gap_hz": 1000.0,
+    "max_time_gap_s": 0.02,
+    "minimum_overlap_fraction": 0.2,
+    "minimum_overlap_s": 0.05,
+    "overlap_frequency_tolerance_hz": 750.0
+  },
+  "tracker": {
+    "detection_cost_weight": 0.25,
+    "edge_threshold": 0.6,
+    "endpoint_stop_threshold": 0.775,
+    "frequency_nms_bins": 3,
+    "max_frequency_jump_bins": 24,
+    "max_gap_frames": 8,
+    "max_nodes_per_frame": 24,
+    "min_duration_frames": 50,
+    "node_threshold": 0.4,
+    "start_threshold": 0.4,
+    "unmatched_cost": 6.0
+  }
+}

@@ -1,0 +1,46 @@
+WhistleMamba Studio on Windows
+
+1. Extract the entire Windows ZIP to a writable folder on a local drive.
+   Keep the app, runtime, model and examples folders together.
+2. Use 64-bit Windows, Chrome and an NVIDIA GPU available in WSL 2.
+   If this is a new PC, complete the one-time setup below first.
+3. Open Configure Detector.exe and select Install / check runtime.
+   First-time installation downloads several GB of dependencies. Then
+   choose Browse and select the following file in the model folder:
+   WhistleMamba-CSR01-joint-base-e12.safetensors
+   Choose Verify and save model. Continue when Detector ready on names
+   your GPU.
+4. Open WhistleMamba Browser.exe. In Chrome, choose Open WAV files,
+   select examples/For_mamba_1.wav and click the recording in the list.
+   Under Analysis, choose Learned, set Batch size to 1 and click Run
+   analysis. You can also open all four WAVs and analyze one at a time.
+5. After Analysis complete, select a contour to inspect it. Choose
+   Recording / project > Download results ZIP. Open the exported Raven
+   selection table or the spectrogram overlay to see your results.
+   Download edits before leaving. Use Exit Studio in the Windows
+   notification area to close the service. Closing the tab alone does not.
+
+Prepare a new PC
+
+Use a Windows NVIDIA driver with WSL GPU support. If WSL is not already
+installed, run this command in an administrator PowerShell:
+  wsl --install -d Ubuntu-24.04
+Restart if requested, complete Ubuntu setup, and check that Ubuntu-24.04
+uses version 2 with: wsl -l -v
+In Ubuntu, if needed, install the Python 3.12 venv module:
+  sudo apt update
+  sudo apt install python3.12-venv
+Return to Windows for step 3. Use an x86-64 Ubuntu environment.
+
+Troubleshooting
+
+If Run analysis is disabled, select a recording, check that its duration
+is at least four seconds, and verify the model in Configure Detector.
+If Chrome does not open, visit http://127.0.0.1:8785/ while Studio runs.
+If files are blocked by your organization's software policy, contact
+your administrator. The checksum alongside the Windows ZIP lets you
+verify your download.
+
+See guide/WhistleMamba_Studio_User_Guide.pdf for illustrated controls.
+See examples/AUDIO_NOTICE.txt for use of the four example recordings
+and model/MODEL_WEIGHTS_LICENSE.txt for use of the model weights.

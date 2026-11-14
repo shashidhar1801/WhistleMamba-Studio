@@ -1,0 +1,7 @@
+# Retain the exact tested file bytes on every checkout, including machine-hashed JSON.
+* -text
+*.png binary
+*.ico binary
+*.pdf binary
+*.docx binary
+*.wav binary
