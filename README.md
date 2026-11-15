@@ -2,7 +2,7 @@
 
 WhistleMamba Studio traces candidate whistles in WAV recordings. You can inspect and edit each contour on a scrolling spectrogram, then export its time–frequency points or a Raven selection table.
 
-[Download WhistleMamba Studio for Windows](https://github.com/shashidhar1801/WhistleMamba-Studio/releases/download/v0.2.0b2/WhistleMamba-Studio-0.2.0b2-Windows-x64-field-examples.zip) · [Download the narrated Windows video guide (MP4)](https://github.com/shashidhar1801/WhistleMamba-Studio/releases/download/v0.2.0b2/WhistleMamba_Studio_Windows_Screen_Guide.mp4)
+[Download WhistleMamba Studio for Windows](https://github.com/shashidhar1801/WhistleMamba-Studio/releases/download/v0.2.0b2/WhistleMamba-Studio-0.2.0b2-Windows-x64-field-examples.zip) · [Download the narrated Windows video guide (MP4)](https://github.com/shashidhar1801/WhistleMamba-Studio/releases/download/v0.2.0b2/WhistleMamba_Studio_Windows_Screen_Guide.mp4) · [Illustrated user guide (PDF)](https://raw.githubusercontent.com/shashidhar1801/WhistleMamba-Studio/v0.2.0b2/guide/WhistleMamba_Studio_User_Guide.pdf)
 
 WhistleMamba combines a four-stage Mamba-2 encoder with a decoder that preserves fine spectrogram detail. The encoder scans in both directions along time and, in deeper stages, along frequency. This gives the learned tracker both local detail and surrounding context when linking points into candidate contours, especially where whistles bend or cross.
 
