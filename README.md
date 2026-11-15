@@ -8,6 +8,8 @@ On Windows, Studio uses a local NVIDIA GPU through CUDA in WSL 2 to compute spec
 
 ![WhistleMamba Studio displaying whistle contours, a recording timeline and the contour editor](screenshots/04-studio-overview.png)
 
+[Download the narrated Windows video guide (MP4)](https://github.com/shashidhar1801/WhistleMamba-Studio/releases/download/v0.2.0b2/WhistleMamba_Studio_Windows_Screen_Guide.mp4) · Run the detector, edit a contour and export the results.
+
 *Reviewing the first of the four included recordings, For_mamba_1.wav.*
 
 ## Run the Windows detector
